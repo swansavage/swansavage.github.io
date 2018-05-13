@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Shaun Savage | Web Developer</title>
+
+
+    <!-- CSS links -->
+
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <ul class="top-navbar">
+            <div class="left">
+                <li><a href="#top">SHAUN SAVAGE</a></li>
+            </div> <!-- end left -->
+            <div class="right">
+                <li><a href="#about-me" id="about-contact">ABOUT + CONTACT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+            </div> <!-- end right -->
+        </ul>
+    </header>
+
+    <div id="top" class="hero-image">
+        <div class="hero-text">
+            <h1>Hello there!</h1>
+            <h3>I'm Shaun Savage &mdash;<br>
+            web developer, digital designer and creator.</h3>
+            <h1>...it's nice to meet you.</h1>
+        </div><!-- hero-text -->
+    </div> <!-- hero-image -->
+
+
+
+     <div id="about-me">
+            <h3>Who am I?</h3>
+            <h4>Just a guy with an appetite for learning and creating.</h4>
+            <p>I am a self-starting, creative-minded web developer with a passion for user-focused design. My background as a full-time touring musician has positioned me to be an adaptable team player who can think on his feet and adjust plans quickly to solve challenges. I combine all facets of my skillset with an ability to collaborate effectively with others to both my work and the workplace to implement my craftsmanship in an efficient and valuable manner.
+</p>
+            <p id="last">I gradually became more and more interested in web development over the past few years as I began incorporating some HTML/CSS into my digital design toolbelt. I became fascinated with the capabilities of JavaScript and decided to take things to the next level by taking part in an immersive learning program. I'm now a capable full-stack developer familiar with multiple programming languages and in-demand tech stacks. I look forward to continuing to grow as a developer and further honing my skills..</p>
+
+            <!-- Trigger/Open The Modal -->
+    <button id="myBtn">Click for JavaScript!</button>
+
+<!-- The Modal -->
+    <div id="myModal" class="modal">
+
+  <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close"><i class="fa fa-times" aria-hidden="true"></i></span>
+            <h4>Just a simple pop-up window for now.</h4>
+            <p>Here's a pic of my dog Waffles.</p>
+            <img src="assets/images/waffles.png">
+        </div>
+    </div>
+
+    </div> <!-- about me -->
+
+    <div id="projects">
+        <h3>Projects</h3>
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 6</div>
+            <img src="assets/images/leaf-and-bean.herokuapp.com_.png" style="width:100%">
+            <h5 class="text">Leaf and Bean<br/>Role: Full-Stack Developer <br/><a href="https://leaf-and-bean.herokuapp.com/">Live Demo</a><br><a href="https://github.com/swansavage/leaf-and-bean">GitHub</a></h5>
+
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 6</div>
+            <img src="assets/images/react-records-app.herokuapp.com_.png" style="width:100%">
+            <h5 class="text">React Records<br/>Role: Back-end / Layout / Styling<br/><a href="https://react-records-app.herokuapp.com//">Live Demo</a><br><a href="https://github.com/swansavage/react_records">GitHub</a></h5>
+          </div>
+
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 6</div>
+            <img src="assets/images/gathered-app.herokuapp.com_.png" style="width:100%">
+            <h5 class="text">Gathered.<br/>Full-Stack Developer<br/><a href="https://gathered-app.herokuapp.com/">Live Demo</a><br><a href="https://github.com/swansavage/gathered_app">GitHub</a></h5>
+          </div>
+
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="assets/images/whatunitesus.org_.png" style="width:100%">
+            <h5 class="text">What Unites US<br/>Designer<br/><a href="http://www.whatunitesus.org/">Live Site</a></h5>
+          </div>
+
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="assets/images/relaylifescience.com_.png" style="width:100%">
+            <h5 class="text">Relay Life Science<br/>Designer<br/><a href="http://relaylifescience.com/">Live Site</a></h5>
+
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="assets/images/swansavage.github.io_.png" style="width:100%">
+            <h5 class="text">Fantasy Battle<br/>Developer<br/><a href="https://swansavage.github.io/">Live Demo</a><br><a href="https://github.com/swansavage/swansavage.github.io">GitHub</a></h5>
+
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+        <div id="contact">
+
+            <div class="contact-info">
+            <h3>Let's be in touch!</h3>
+
+                <p>Please feel free to reach out any time via email or phone. </p>
+
+                <div id="badges-1">
+                <a href="tel:+16318072940"  target="_top" class="badge"><i class="fas fa-phone"></i></a>
+
+                <a href="mailto:shaun.k.savage@gmail.com" class="badge"><i class="far fa-envelope"></i></a>
+
+                </div> <!-- badges-1 -->
+
+                <p>...and let's stay connected.</p>
+
+                <div id="badges-2">
+
+                <a href="https://www.linkedin.com/in/shaun-k-savage/" target="_blank" class="badge social linked"><i class="fab fa-linkedin-in"></i></a>
+
+                <a href="https://www.facebook.com/swansavage" target="_blank" class="badge social facebook"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="https://www.instagram.com/swanzi/" target="_blank" class="badge social instagram"><i class="fab fa-instagram"></i></a>
+
+
+                </div>  <!-- badges-2 -->
+            </div> <!-- contact-info -->
+        </div>
+
+
+        <div class="footer-container">
+                <footer class="footer">
+                    <p id="bottomname">&copy; SHAUN SAVAGE <br>
+                    <small>(just in case you were trying to steal this.)</small></p>
+                </footer>
+
+        </div> <!-- footer-container -->
+
+
+
+
+
+    <script>
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+    </script>
+
+
+</body>
